@@ -16,7 +16,7 @@ API key handling (safe for public GitHub):
 import json
 import os
 
-import xai
+import src.xai
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(HERE, "gemini_config.json")

@@ -16,7 +16,7 @@ from PySide6.QtCore import QUrl, QMarginsF
 from PySide6.QtGui import QTextDocument, QImage, QPageLayout, QPageSize
 from PySide6.QtPrintSupport import QPrinter
 
-import inference
+import src.inference
 
 
 def _pil_to_qimage(pil, max_w=560):

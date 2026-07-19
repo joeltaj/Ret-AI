@@ -23,11 +23,11 @@ from PySide6.QtWidgets import (
 )
 from PIL import Image
 
-import inference
-import xai
-import segmentation
-import llm_gemini
-import report
+from src import inference
+from src import xai
+from src import segmentation
+from src import llm_gemini
+from src import report
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)

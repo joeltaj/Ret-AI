@@ -14,7 +14,7 @@ import torch
 import torchvision.transforms as T
 from PIL import Image, ImageFile
 
-from model_def import DRConceptFusionModel
+from src.model_def import DRConceptFusionModel
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
