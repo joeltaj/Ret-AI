@@ -1,0 +1,14 @@
+# === Secrets — NEVER commit ===
+gemini_config.json
+.env
+*.key
+
+# === Python ===
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# === Scratch / test artifacts ===
+_*.png
+prediction_explanation.json
